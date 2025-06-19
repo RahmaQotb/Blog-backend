@@ -103,5 +103,5 @@ A clean and modular blog API built using Laravel 10 with support for authenticat
 ### Postman Collections
 Include requests for:
 - Auth (`register`, `login`, `logout`, `refresh`)
-- Posts (`store`, `update`, `delete`, `index`)
+- Posts (`store`, `update`, `delete`, `index`, `show`)
 - Comments & Replies (`store`, `index`, `update`, `delete`)
