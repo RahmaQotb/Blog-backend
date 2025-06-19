@@ -19,7 +19,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->app->bind(AuthRepositoryInterface::class, AuthRepository::class);
         $this->app->bind(PostRepositoryInterface::class, PostRepository::class);
-        $this->app->bind(CommentRepositoryInterface::class,CommentRepository::class);
+        $this->app->bind(CommentRepositoryInterface::class, CommentRepository::class);
     }
 
     /**
@@ -27,6 +27,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-           app()->setLocale(request()->header('Accept-Language', 'en'));
+        app()->setLocale(request()->header('Accept-Language', 'en'));
     }
 }

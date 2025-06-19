@@ -8,7 +8,7 @@ A clean and modular blog API built using Laravel 10 with support for authenticat
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/RahmaQotb/Blog-Api.git
+   git clone https://github.com/RahmaQotb/Blog-backend.git
    cd Blog-Api
    ```
 
